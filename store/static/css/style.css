@@ -44,24 +44,25 @@ a:focus {
   border-bottom: 1px solid #f5f5f5;
   padding-top: 10px;
   padding-bottom: 15px;
-  background: none repeat scroll 0 0 #232f3e;
+  background: none repeat scroll 0 0 #3a7583;
 }
 .search_box{
     padding: 2px; 
     background-color: #efefef;
     border: 1px solid #d9d9d9;
-    border-radius: 4px;
+    border-radius: 30px;
 	position:absolute;
 	width:100%;
 }
 
 .search_box .btn.btn-primary {
-  background:#ffc107 !important;
-  border-color: #ffc107;
+  background:#232f3e !important;
+  border-color: #232f3e;
   border: 0 none;
-  border-radius: 0;
+  border-radius: 40px;
   margin-top: 0;
-  border-radius: 0 5px 5px 0 ;
+  border-radius: 40px 40px 40px 40px ;
+
 }
 
 /*============ Dropdown*/
@@ -665,13 +666,13 @@ ul.pages>li>img{
 }
 /*============*/
 .footer{
-  background:#232f3e;
+  background:#3a7583;
   display: block;
 }
 .footer_about h3, .footer_menu h3, .footer_news h3{
   font-family: "Times New Roman", Times, serif;
   color:#ffffff;
-  margin-top: 10px;
+  margin-top: 10px;/
   
 }
 .footer_about ul, .footer_menu ul{
